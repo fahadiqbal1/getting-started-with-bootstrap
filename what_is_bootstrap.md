@@ -19,3 +19,5 @@ As mentioned above, [HTML](https://en.wikipedia.org/wiki/HTML) is what the brows
 * A "Doctype" to tell the browser what type of page this is.
 * A "head" where all the information about the page goes.
 * A "body" where the contents of the page go.
+
+Here is an example of what an html file looks like:
