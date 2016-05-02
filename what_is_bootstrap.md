@@ -2,7 +2,7 @@
 
 At it's core, Bootstrap is a front-end web development framework. If that all sounds like a bunch of mumbo jumbo, then this is the book for you! Let's break down that first sentence a bit more:
 
-## Basics of a page
+## Basics of a loading a web-page
 
 When you visit a website, there is a lot happening behind the scenes before the page you loaded shows up.
 
