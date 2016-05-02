@@ -4,4 +4,10 @@ At it's core, Bootstrap is a front-end web development framework. If that all so
 
 ## Bootstrap vs HTML
 
-When you visit a website, there is a lot happening behind the scenes before the page you loaded shows up. First your browser (Chrome, Internet Explorer, Safari, Firefox, etc) makes a call to a server to display a page, the server then finds the page and sends it's information to your browser, which then reads that information and displays the page. All of this generally tends to happen within a few seconds, but it is always good to know how/what is happening.
+When you visit a website, there is a lot happening behind the scenes before the page you loaded shows up.
+
+1. Your browser, such as Chrome, Internet Explorer, Firefox, etc, makes a call to a domain (e.g. www.google.com)
+2. The server behind that domain finds the page's HTML contents and sends it back to the browser.
+3. The browser then displays that HTML.
+ 
+
