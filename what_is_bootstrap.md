@@ -9,5 +9,6 @@ When you visit a website, there is a lot happening behind the scenes before the 
 1. Your browser, such as Chrome, Internet Explorer, Firefox, etc, makes a call to a domain (e.g. www.google.com)
 2. The server behind that domain finds the page's HTML contents and sends it back to the browser.
 3. The browser then displays that HTML.
- 
+
+![](images/BrowserHTML.png)
 
