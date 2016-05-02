@@ -1,3 +1,7 @@
 {
-    "Author": "Fahad Iqbal"
+    "Author": "Fahad Iqbal",
+    "plugins": [
+        "autocover"
+    ],
+    "pluginsConfig": {}
 }
