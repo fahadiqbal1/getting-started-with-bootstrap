@@ -5,5 +5,5 @@
    * [Basics of HTML](bootstrap/basics_of_html.md)
    * [What is Bootstrap](bootstrap/what_is_bootstrap.md)
 * Tutorial
-   * Environment Setup
+   * [Environment Setup](tutorial/environment_setup.md)
 
