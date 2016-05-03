@@ -6,5 +6,5 @@
    * [What is Bootstrap](bootstrap/what_is_bootstrap.md)
 * Tutorial
    * [Environment Setup](tutorial/environment_setup.md)
-   * Starting Template
+   * [Starting Template](tutorial/starting_template.md)
 
