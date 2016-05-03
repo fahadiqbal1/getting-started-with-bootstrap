@@ -1,7 +1,8 @@
 {
     "Author": "Fahad Iqbal",
     "plugins": [
-        "autocover"
+        "autocover",
+        "expandable-chapters"
     ],
     "pluginsConfig": {}
 }
