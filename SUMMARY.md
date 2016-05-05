@@ -7,4 +7,5 @@
 * Tutorial
    * [Environment Setup](tutorial/environment_setup.md)
    * [Starting Template](tutorial/starting_template.md)
+   * [Building the Homepage](tutorial/building_home_page.md)
 

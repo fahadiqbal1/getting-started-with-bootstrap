@@ -1,7 +1,12 @@
 {
     "Author": "Fahad Iqbal",
     "plugins": [
-        "autocover"
+         "google_code_prettify","callouts"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+    	"callouts":
+        {
+            "showTypeInHeader": false
+        }
+    }
 }
