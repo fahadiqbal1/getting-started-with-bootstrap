@@ -30,8 +30,38 @@ Before we can start code, we need to figure out what will be present in every si
       <!-- Our Javascript Files -->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/portfolio.js"></script>
   </body>
   </html>
   ```
-   This is the absolute barebone version of our template. What we are doing here is loading the Bootstrap **CSS** and **JS** files
- 3. T
+   This is the absolute barebone version of our template. What we are doing here is loading the Bootstrap **CSS** and **JS** files as well as our own files from earlier.
+ 3. The next step is to make add the Navigation bar at the top of the page; this is where Boostrap starts to shine. 
+ 4. Out of the box, Bootstrap comes with a Navigation bar pre configured, we just need to code it to our liking. First go [here to read up](https://getbootstrap.com/components/#navbar) on how the navigation bar works.
+ 5. Next, write the following before where your content will go:
+   6. ```
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">John Doe</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Link</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About Me</a></li>
+							<li><a href="#">Contact Me</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+```
+  Here we are creating a new navigation bar with three links on the right and our website's name on the left
