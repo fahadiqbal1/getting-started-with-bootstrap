@@ -101,5 +101,5 @@ Before we can start code, we need to figure out what will be present in every si
 	</nav>
 ```
   Here we are creating a new navigation bar with three links on the right and our website's name on the left.
-```
-  Here we are creating a new navigation bar with three links on the right and our website's name on the left
+ 7. Our website should look like this when you try and open it in a web browser:
+   ![](../images/navbar.png)
