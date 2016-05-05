@@ -14,6 +14,7 @@ Your Portfolio folder should be looking like this:
 ```
 portfolio/
 ├── index.html
+├── portfolio.html
 ├── css/
 │   ├── portfolio.css
 ├── js/
