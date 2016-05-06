@@ -7,5 +7,7 @@
 * Tutorial
    * [Environment Setup](tutorial/environment_setup.md)
    * [Starting Template](tutorial/starting_template.md)
-   * [Building the Homepage](tutorial/building_home_page.md)
+   * Homepage
+      * [The Design](tutorial/homepage_1_design.md)
+      * [The Welcome Header](tutorial/homepage_2_header.md)
 

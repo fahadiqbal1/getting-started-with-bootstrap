@@ -11,7 +11,9 @@ Here is an overview of what this book will be covering:
 * Hosting your site.
 * Extra resources and further readings
 
-# Building the Book
+---
+
+## Building the Book
 
 In order to build this book, you need to run the following commands in the terminal/shell:
 
@@ -21,6 +23,6 @@ In order to build this book, you need to run the following commands in the termi
 4. ```gitbook install```
 5. ```gitbook serve```
 
-After this, the book will be available on ```http://localhost:4000/``` and will rebuild itself after any changes to the content files.
+After this, the book will be available on ```http://localhost:4000/``` and will rebuild itself after any changes to the content
 
 
