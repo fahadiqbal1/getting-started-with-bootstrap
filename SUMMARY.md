@@ -10,4 +10,6 @@
    * Homepage
       * [The Design](tutorial/homepage_1_design.md)
       * [The Welcome Header](tutorial/homepage_2_header.md)
+      * [Who Am I Section](tutorial/homepage_3_about_section.md)
+      * [Learning about Grids](tutorial/homepage_4_bootstrap_grids.md)
 

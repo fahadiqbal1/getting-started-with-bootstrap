@@ -24,5 +24,10 @@ We need to copy everything from the template to the main file (```index.html```)
 		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 	</div>
 ```
-3. And just like that, our website should look like this: ![](../../images/homepage/header_screenshot.png)
-4. Looks nice doesn't it? :D
+
+
+
+> #### Success::Our Website So far
+>
+> ![](../../images/homepage/header_screenshot.png)
+> ##### Starting to look nice :D
