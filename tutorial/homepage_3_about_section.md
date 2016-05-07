@@ -1,6 +1,6 @@
 # Building the "Who Am I" section
 
-![](../../images/homepage_section_who_am_i.png)
+![](../images/homepage_section_who_am_i.png)
 
 Now that we have our header built, we can start putting in the "meat" of our website, starting with the "Who Am I" section.
 
@@ -21,6 +21,6 @@ This section will give our web site's visitors a glimpse into us and will direct
 		</p>
 	</section>
 ```
-4. And just like that, our site should look something like this: ![](../../images/homepage_section_who_am_i_screenshot_1.png)
+4. And just like that, our site should look something like this: ![](../images/homepage_section_who_am_i_screenshot_1.png)
 5. Hmm, the text seems a bit too spread out
 6. We will learn how to fix that in the next page.

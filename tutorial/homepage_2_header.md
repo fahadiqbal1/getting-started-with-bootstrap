@@ -29,5 +29,5 @@ We need to copy everything from the template to the main file (```index.html```)
 
 > #### Success::Our Website So far
 >
-> ![](../../images/homepage_header_screenshot.png)
+> ![](../images/homepage_header_screenshot.png)
 > ##### Starting to look nice :D 
