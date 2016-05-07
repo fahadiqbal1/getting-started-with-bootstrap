@@ -1,6 +1,6 @@
 # Building the Welcome Header
 
-![](../../images/homepage_header.png)
+![](../images/homepage_header.png)
 
 The header will be the first thing that visitors to our website will see, so we need to make sure it is **big**, **attractive** and **to the point**!
 
