@@ -14,5 +14,5 @@ For the purpose of this tutorial, we will be putting the following bits into our
 
 Personally, I like to visualize the end result by drawing it on a piece of paper; it does not have be exact, but at least give you an understanding of what it is that you are building. Here is what I imagine the home page will look like on this website (apologies for the handwriting :P ):
 
-![](../../images/homepage/handdrawn_homepage_1.jpg)
-![](../../images/homepage/handdrawn_homepage_2.jpg)
+![](../../images/homepage_handdrawn_1.jpg)
+![](../../images/homepage_handdrawn_2.jpg)

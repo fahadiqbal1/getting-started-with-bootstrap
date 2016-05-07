@@ -12,4 +12,5 @@
       * [The Welcome Header](tutorial/homepage_2_header.md)
       * [Who Am I Section](tutorial/homepage_3_about_section.md)
       * [Learning about Grids](tutorial/homepage_4_bootstrap_grids.md)
+      * [What I have built Section](tutorial/homepage_5_what_I_have_built_section.md)
 

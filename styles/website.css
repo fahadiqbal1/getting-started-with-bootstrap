@@ -6,3 +6,10 @@ code {
     -o-user-select: none;
     user-select: none;
 }
+
+.panel-title {
+	color: #ffffff !important;
+}
+.panel-body {
+	padding-bottom: 1px;
+}

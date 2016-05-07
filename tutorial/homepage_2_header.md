@@ -1,6 +1,6 @@
 # Building the Welcome Header
 
-![](../../images/homepage/header.png)
+![](../../images/homepage_header.png)
 
 The header will be the first thing that visitors to our website will see, so we need to make sure it is **big**, **attractive** and **to the point**!
 
@@ -29,5 +29,5 @@ We need to copy everything from the template to the main file (```index.html```)
 
 > #### Success::Our Website So far
 >
-> ![](../../images/homepage/header_screenshot.png)
+> ![](../../images/homepage_header_screenshot.png)
 > ##### Starting to look nice :D
