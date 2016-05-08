@@ -13,3 +13,13 @@ code {
 .panel-body {
 	padding-bottom: 1px;
 }
+
+@media print
+{
+	.book-summary, nav {
+		display: none !important;
+	}
+	.book-body {
+		left: 0px !important;
+	}
+}

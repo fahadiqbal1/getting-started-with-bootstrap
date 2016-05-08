@@ -7,7 +7,7 @@ Like before, we should **always** design the page before we start coding.
 For the purpose of this tutorial, we will be putting the following bits into our home page:
 
 * Large welcome message
-* A *tiny* bit about me (the bulk of this information will go in a seperate page later on)
+* A *tiny* bit about me (the bulk of this information will go in a separate page later on)
 * 4 of the most recent things that I have built
 * A map of where I am
 * My social media contact links
