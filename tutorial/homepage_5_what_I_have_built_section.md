@@ -77,4 +77,4 @@ For this tutorial, we will be outlining four things, with an image and a short d
 		</div>
 	</div>
 ```
-21. 
+21. You'll see that both of the panels line up side by side
