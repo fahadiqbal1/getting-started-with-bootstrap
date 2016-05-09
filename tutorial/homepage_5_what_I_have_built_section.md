@@ -77,4 +77,45 @@ For this tutorial, we will be outlining four things, with an image and a short d
 		</div>
 	</div>
 ```
-21. You'll see that both of the panels line up side by side
+21. You'll see that both of the panels line up side by side, and if you resize the browser to be narrow, the panels will re-align to take the full width of the page.
+	22. ![](../images/homepage_section_what_i_built_screenshot_1.png)
+23. The next two panels will be in another ```row``` div, which will go immediately after our last row. For the sake of simplicity, here is what the next row looks like in code:
+	23. ```
+	<div class="row">
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Essay on Tigers</h3>
+				</div>
+				<div class="panel-body">
+					<img src="https://images.unsplash.com/photo-1417722009592-65fa261f5632?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b54233b0daeb78466db00e4b71fc888c" class="img-responsive img-thumbnail">
+					<br>
+					<p>I wrote a comprehensive essay on the conditions of Tigers in the wild and in captivity today.</p>
+				</div>
+				<div class="panel-footer">
+					<a href="https://en.wikipedia.org/wiki/Tiger" class="btn btn-primary btn-block">Read the essay here</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Trip to San Fransico</h3>
+				</div>
+				<div class="panel-body">
+					<img src="https://images.unsplash.com/photo-1416184008836-5486f3e2cf58?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e601cebd6e59951584842292cae157d3" class="img-responsive img-thumbnail">
+					<br>
+					<p>I photo blogged my recent trip to San Fransico. During the trip I got to see all the major sites, including the Golden Gate bridge, Alcatraz Island, and much more.</p>
+				</div>
+				<div class="panel-footer">
+					<a href="https://en.wikipedia.org/wiki/San_Francisco" class="btn btn-primary btn-block">See the blog here</a>
+				</div>
+			</div>
+		</div>
+	</div>
+```
+
+> #### Success::Our Website So far
+>
+> ![](../images/homepage_section_what_i_built_screenshot_2.png)
+> ##### Those panels really do look awesome, don't they? :)
