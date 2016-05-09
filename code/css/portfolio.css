@@ -1,0 +1,21 @@
+section {
+	padding-bottom: 20px;
+}
+
+section > h2 {
+	margin-bottom: 0px;
+}
+
+section > hr {
+	margin-top: 0px;
+	border-top: 2px solid #aaa;
+}
+
+footer {
+	padding-top: 60px;
+}
+
+footer > p {
+	padding: 15px;
+	background-color: #eeeeee;
+}
