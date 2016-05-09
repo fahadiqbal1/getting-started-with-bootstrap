@@ -14,4 +14,8 @@
       * [Who Am I Section](tutorial/homepage_3_about_section.md)
       * [Learning about Grids](tutorial/homepage_4_bootstrap_grids.md)
       * [What I have built Section](tutorial/homepage_5_what_I_have_built_section.md)
+      * [Where Am I Section](tutorial/homepage_6_where_am_I_section.md)
+      * [Get In Touch Section](tutorial/homepage_7_get_in_touch_section.md)
+      * [Customization](tutorial/homepage_8_customization.md)
+      * [Final Code](tutorial/homepage_9_final_code.md)
 
