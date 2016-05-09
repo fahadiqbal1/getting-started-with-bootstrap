@@ -14,7 +14,7 @@ This tutorial assumes the following:
 
 ## Questions
 
-If at any point you have issues or questions, reach out to me by submitting your query [here](https://github.com/fahadiqbal1/getting-started-with-bootstrap/issues/new)
+If at any point you have issues or questions, reach out to me by submitting your query [here](https://gitreports.com/issue/fahadiqbal1/getting-started-with-bootstrap)
 
 ## Navigation
 

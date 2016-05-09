@@ -1,0 +1,55 @@
+# Finished Contact Page
+
+![](../images/contactpage_screenshot_final.png)
+
+## HTML Code
+
+> pages/contact.html
+
+```
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>John Doe</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/portfolio.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">John Doe</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="about.html">About Me</a></li>
+						<li><a href="#">Contact Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div id="contact-page">
+				<iframe id="contact-form" src="https://hello.typeform.com/to/Mkg0Tc" width="100%" height="750"></iframe>
+			</div>
+
+			<footer class="footer">
+				<p class="text-muted">Copyright 2016, John Doe</p>
+			</footer>
+		</div>
+
+		<!-- Our Javascript Files -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/portfolio.js"></script>
+	</body>
+	</html>
+```

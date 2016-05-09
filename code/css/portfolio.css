@@ -19,3 +19,15 @@ footer > p {
 	padding: 15px;
 	background-color: #eeeeee;
 }
+
+#about-page .row {
+	padding-bottom: 50px;
+}
+
+#about-page #bio {
+	font-size: large;
+}
+
+#about-page .list-group-item:hover {
+	background-color: #BCF3EE;
+}

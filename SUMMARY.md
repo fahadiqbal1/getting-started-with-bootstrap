@@ -18,4 +18,14 @@
       * [Get In Touch Section](tutorial/homepage_7_get_in_touch_section.md)
       * [Customization](tutorial/homepage_8_customization.md)
       * [Final Code](tutorial/homepage_9_final_code.md)
-
+   * About Page
+      * [The Design](tutorial/about_1_design.md)
+      * [The Content](tutorial/about_2_content.md)
+      * [Customization](tutorial/about_3_customization.md)
+      * [Final Code](tutorial/about_4_final_code.md)
+   * Contact Page
+      * [The Design](tutorial/contact_1_design.md)
+      * [The Content](tutorial/contact_2_content.md)
+      * [Final Code](tutorial/contact_3_final_code.md)
+* Next Steps
+* [Issues/Questions](https://gitreports.com/issue/fahadiqbal1/getting-started-with-bootstrap)
