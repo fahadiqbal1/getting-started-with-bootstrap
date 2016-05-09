@@ -61,7 +61,7 @@
         data-chapter-title="Final Code"
         data-filepath="tutorial/contact_3_final_code.md"
         data-basepath=".."
-        data-revision="Mon May 09 2016 16:01:47 GMT+0100 (GMT Daylight Time)"
+        data-revision="Mon May 09 2016 18:15:49 GMT+0100 (GMT Daylight Time)"
         data-innerlanguage="">
     
 
@@ -372,14 +372,29 @@
             
         </li>
     
-        <li class="chapter " data-level="2.5.3" data-path="tutorial/about_3_final_code.html">
+        <li class="chapter " data-level="2.5.3" data-path="tutorial/about_3_customization.html">
             
                 
-                    <a href="../tutorial/about_3_final_code.html">
+                    <a href="../tutorial/about_3_customization.html">
                 
                         <i class="fa fa-check"></i>
                         
                             <b>2.5.3.</b>
+                        
+                        Customization
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="tutorial/about_4_final_code.html">
+            
+                
+                    <a href="../tutorial/about_4_final_code.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.4.</b>
                         
                         Final Code
                     </a>
@@ -455,6 +470,28 @@
             
         </li>
     
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> Next Steps</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+                
+                    <a target="_blank" href="https:/gitreports.com/issue/fahadiqbal1/getting-started-with-bootstrap">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Issues/Questions
+                    </a>
+            
+            
+        </li>
+    
 
 
             
@@ -488,7 +525,58 @@
                 
                     <section class="normal" id="section-">
                     
-                        
+                        <h1 id="finished-contact-page">Finished Contact Page</h1>
+<p><img src="../images/contactpage_screenshot_final.png" alt=""></p>
+<h2 id="html-code">HTML Code</h2>
+<blockquote>
+<p>pages/contact.html</p>
+</blockquote>
+<pre><code>    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+        &lt;title&gt;John Doe&lt;/title&gt;
+        &lt;link href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;../css/portfolio.css&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;nav class=&quot;navbar navbar-default&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;navbar-header&quot;&gt;
+                    &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#bs-example-navbar-collapse-1&quot; aria-expanded=&quot;false&quot;&gt;
+                        &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;/button&gt;
+                    &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;John Doe&lt;/a&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;bs-example-navbar-collapse-1&quot;&gt;
+                    &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+                        &lt;li&gt;&lt;a href=&quot;../index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact Me&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/nav&gt;
+
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div id=&quot;contact-page&quot;&gt;
+                &lt;iframe id=&quot;contact-form&quot; src=&quot;https://hello.typeform.com/to/Mkg0Tc&quot; width=&quot;100%&quot; height=&quot;750&quot;&gt;&lt;/iframe&gt;
+            &lt;/div&gt;
+
+            &lt;footer class=&quot;footer&quot;&gt;
+                &lt;p class=&quot;text-muted&quot;&gt;Copyright 2016, John Doe&lt;/p&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Our Javascript Files --&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;https://code.jquery.com/jquery-2.2.3.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;js/portfolio.js&quot;&gt;&lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code></pre>
                     
                     </section>
                 
@@ -531,9 +619,13 @@
     <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
     
 
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"callouts":{"showTypeInHeader":false},"google_code_prettify":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    var config = {"callouts":{"showTypeInHeader":false},"google_code_prettify":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
     gitbook.start(config);
 });
 </script>

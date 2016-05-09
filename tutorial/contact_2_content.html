@@ -63,7 +63,7 @@
         data-chapter-title="The Content"
         data-filepath="tutorial/contact_2_content.md"
         data-basepath=".."
-        data-revision="Mon May 09 2016 16:01:47 GMT+0100 (GMT Daylight Time)"
+        data-revision="Mon May 09 2016 18:15:49 GMT+0100 (GMT Daylight Time)"
         data-innerlanguage="">
     
 
@@ -374,14 +374,29 @@
             
         </li>
     
-        <li class="chapter " data-level="2.5.3" data-path="tutorial/about_3_final_code.html">
+        <li class="chapter " data-level="2.5.3" data-path="tutorial/about_3_customization.html">
             
                 
-                    <a href="../tutorial/about_3_final_code.html">
+                    <a href="../tutorial/about_3_customization.html">
                 
                         <i class="fa fa-check"></i>
                         
                             <b>2.5.3.</b>
+                        
+                        Customization
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="tutorial/about_4_final_code.html">
+            
+                
+                    <a href="../tutorial/about_4_final_code.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.4.</b>
                         
                         Final Code
                     </a>
@@ -457,6 +472,28 @@
             
         </li>
     
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> Next Steps</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+                
+                    <a target="_blank" href="https:/gitreports.com/issue/fahadiqbal1/getting-started-with-bootstrap">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Issues/Questions
+                    </a>
+            
+            
+        </li>
+    
 
 
             
@@ -490,7 +527,23 @@
                 
                     <section class="normal" id="section-">
                     
-                        
+                        <h1 id="building-the-contact-page">Building the Contact Page</h1>
+<ol>
+<li>Make a copy of <code>template.html</code> and paste it in the <code>pages</code> directory as <code>contact.html</code></li>
+<li>Find header links to Home and About and replace them with <pre><code> &lt;li&gt;&lt;a href=&quot;../index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;
+</code></pre></li>
+<li>Next, find the line <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/portfolio.css&quot;&gt;</code> and replace it with <pre><code> &lt;link rel=&quot;stylesheet&quot; href=&quot;../css/portfolio.css&quot;&gt;
+</code></pre></li>
+<li>Find <code>&lt;!-- This is where our page&apos;s content will go --&gt;</code> and replace it with<pre><code> &lt;div id=&quot;contact-page&quot;&gt;
+     &lt;div id=&quot;contact-page&quot;&gt;
+         &lt;iframe id=&quot;contact-form&quot; src=&quot;https://hello.typeform.com/to/Mkg0Tc&quot; width=&quot;100%&quot; height=&quot;750&quot;&gt;&lt;/iframe&gt;
+     &lt;/div&gt;
+ &lt;/div&gt;
+</code></pre></li>
+<li>Update the links to the Contact page in both the Home page and the About page</li>
+</ol>
+
                     
                     </section>
                 
@@ -535,9 +588,13 @@
     <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
     
 
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"callouts":{"showTypeInHeader":false},"google_code_prettify":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    var config = {"callouts":{"showTypeInHeader":false},"google_code_prettify":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
     gitbook.start(config);
 });
 </script>

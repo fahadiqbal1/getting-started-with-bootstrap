@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Final Code | Getting Started with Bootstrap</title>
+        <title>Customization | Getting Started with Bootstrap</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
@@ -47,7 +47,7 @@
         
     
     
-    <link rel="next" href="../tutorial/contact_1_design.html" />
+    <link rel="next" href="../tutorial/about_4_final_code.html" />
     
     
     <link rel="prev" href="../tutorial/about_2_content.html" />
@@ -60,10 +60,10 @@
         
     <div class="book"
         data-level="2.5.3"
-        data-chapter-title="Final Code"
-        data-filepath="tutorial/about_3_final_code.md"
+        data-chapter-title="Customization"
+        data-filepath="tutorial/about_3_customization.md"
         data-basepath=".."
-        data-revision="Mon May 09 2016 16:01:47 GMT+0100 (GMT Daylight Time)"
+        data-revision="Mon May 09 2016 18:15:49 GMT+0100 (GMT Daylight Time)"
         data-innerlanguage="">
     
 
@@ -374,14 +374,29 @@
             
         </li>
     
-        <li class="chapter active" data-level="2.5.3" data-path="tutorial/about_3_final_code.html">
+        <li class="chapter active" data-level="2.5.3" data-path="tutorial/about_3_customization.html">
             
                 
-                    <a href="../tutorial/about_3_final_code.html">
+                    <a href="../tutorial/about_3_customization.html">
                 
                         <i class="fa fa-check"></i>
                         
                             <b>2.5.3.</b>
+                        
+                        Customization
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="tutorial/about_4_final_code.html">
+            
+                
+                    <a href="../tutorial/about_4_final_code.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.4.</b>
                         
                         Final Code
                     </a>
@@ -457,6 +472,28 @@
             
         </li>
     
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> Next Steps</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+                
+                    <a target="_blank" href="https:/gitreports.com/issue/fahadiqbal1/getting-started-with-bootstrap">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Issues/Questions
+                    </a>
+            
+            
+        </li>
+    
 
 
             
@@ -490,7 +527,31 @@
                 
                     <section class="normal" id="section-">
                     
-                        
+                        <h1 id="customizing-the-about-page">Customizing the About Page</h1>
+<ol>
+<li>Open <code>portfolio.css</code> from the <code>css</code> folder.</li>
+<li>Let&apos;s add a little bit of space between all of the rows in our page<pre><code> #about-page .row {
+     padding-bottom: 50px;
+ }
+</code></pre><ol>
+<li>Here we are only selecting the <code>row</code> class inside of the <code>about-page</code> id</li>
+</ol>
+</li>
+<li>Next, let&apos;s make the text in the biography section a little bit bigger<pre><code> #about-page #bio {
+     font-size: large;
+ }
+</code></pre></li>
+<li>And finally, let&apos;s make it so that whenever you hover over a list item, it changes the background color!<pre><code> #about-page .list-group-item:hover {
+     background-color: #BCF3EE;
+ }
+</code></pre></li>
+</ol>
+<h2 id="one-last-step">One last step</h2>
+<ol>
+<li>In <code>index.html</code>, change the link for the about page from <code>#</code> to <code>pages/about.html</code><pre><code> &lt;li&gt;&lt;a href=&quot;pages/about.html&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;
+</code></pre></li>
+</ol>
+
                     
                     </section>
                 
@@ -503,7 +564,7 @@
         <a href="../tutorial/about_2_content.html" class="navigation navigation-prev " aria-label="Previous page: The Content"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../tutorial/contact_1_design.html" class="navigation navigation-next " aria-label="Next page: The Design"><i class="fa fa-angle-right"></i></a>
+        <a href="../tutorial/about_4_final_code.html" class="navigation navigation-next " aria-label="Next page: Final Code"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
@@ -535,9 +596,13 @@
     <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
     
 
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"callouts":{"showTypeInHeader":false},"google_code_prettify":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    var config = {"callouts":{"showTypeInHeader":false},"google_code_prettify":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
     gitbook.start(config);
 });
 </script>
