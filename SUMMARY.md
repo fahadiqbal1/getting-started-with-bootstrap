@@ -28,4 +28,5 @@
       * [The Content](tutorial/contact_2_content.md)
       * [Final Code](tutorial/contact_3_final_code.md)
 * Next Steps
+* [Resources](bootstrap/resources.md)
 * [Issues/Questions](https://gitreports.com/issue/fahadiqbal1/getting-started-with-bootstrap)
